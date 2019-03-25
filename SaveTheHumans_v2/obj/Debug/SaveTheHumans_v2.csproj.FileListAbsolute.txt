@@ -1,0 +1,15 @@
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\bin\Debug\SaveTheHumans_v2.exe.config
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\bin\Debug\SaveTheHumans_v2.exe
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\bin\Debug\SaveTheHumans_v2.pdb
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2.csprojAssemblyReference.cache
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\MainWindow.g.cs
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\App.g.cs
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2_MarkupCompile.cache
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2_MarkupCompile.lref
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\MainWindow.baml
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2.g.resources
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2.Properties.Resources.resources
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2.csproj.GenerateResource.cache
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2.csproj.CoreCompileInputs.cache
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2.exe
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2.pdb
