@@ -26,10 +26,13 @@ namespace SaveTheHumans_v2
         DispatcherTimer enemyTimer = new DispatcherTimer();
         DispatcherTimer targetTimer = new DispatcherTimer();
         bool humanCaptured = false;
+        int pointPlayer;
+        int theBestResult = 0;
 
         public MainWindow()
         {
             InitializeComponent();
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
             enemyTimer.Tick += EnemyTimer_Tick;
             enemyTimer.Interval = TimeSpan.FromSeconds(2);
 
@@ -41,7 +44,10 @@ namespace SaveTheHumans_v2
         {
             progressBar.Value += 1;
             if (progressBar.Value >= progressBar.Maximum)
+            {
+                checkBestResult(pointPlayer);
                 EndTheGame();
+            }            
         }
 
         private void EndTheGame()
@@ -77,6 +83,13 @@ namespace SaveTheHumans_v2
             playArea.Children.Add(human);
             enemyTimer.Start();
             targetTimer.Start();
+            pointPlayer = 0;
+            countPoints();
+        }
+
+        private void countPoints()
+        {
+            pointsPlayer.Text = "Your points: " + pointPlayer.ToString();
         }
 
         private void AddEnemies()
@@ -94,7 +107,19 @@ namespace SaveTheHumans_v2
         private void Enemy_MouseEnter(object sender, MouseEventArgs e)
         {
             if (humanCaptured)
+            {
+                checkBestResult(pointPlayer);
                 EndTheGame();
+            }           
+        }
+
+        private void checkBestResult(int pointPlayer)
+        {
+            if(pointPlayer >= theBestResult)
+            {
+                theBestResult = pointPlayer;
+            }
+            bestResult.Text = "Best result: " + theBestResult.ToString();            
         }
 
         private void AnimateEnemy(ContentControl enemy, double from, double to, string propertyToAnimate)
@@ -133,6 +158,8 @@ namespace SaveTheHumans_v2
                 Canvas.SetTop(human, random.Next(100, (int)playArea.ActualHeight - 100));
                 humanCaptured = false;
                 human.IsHitTestVisible = true;
+                pointPlayer++;
+                countPoints();
             }
         }
 
@@ -160,7 +187,10 @@ namespace SaveTheHumans_v2
         private void PlayArea_MouseLeave(object sender, MouseEventArgs e)
         {
             if (humanCaptured)
+            {
+                checkBestResult(pointPlayer);
                 EndTheGame();
+            }
         }
     }
 }
