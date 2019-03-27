@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("logo_tna_icon.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon/aliens.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon/aliens.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon/aliens_mx2_icon.ico")]
 
 

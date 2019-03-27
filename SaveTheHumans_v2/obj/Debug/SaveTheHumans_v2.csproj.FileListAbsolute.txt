@@ -13,3 +13,5 @@ D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHu
 D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2.csproj.CoreCompileInputs.cache
 D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2.exe
 D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SaveTheHumans_v2.pdb
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SplashScreen.g.cs
+D:\Szymon\Programowanie\C#\SaveTheHumans_v2\SaveTheHumans_v2\obj\Debug\SplashScreen.baml
